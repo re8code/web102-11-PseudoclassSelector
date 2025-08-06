@@ -1,3 +1,9 @@
-p i:first-child {
-  color: purple;
+div:nth-child(2n) {
+  background-color: orange;
+}
+li:nth-child(2n) {
+  background-color: lightgreen;
+}
+:nth-child(5n) {
+  background-color: yellow;
 }
